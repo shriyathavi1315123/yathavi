@@ -3,14 +3,14 @@ public class JavaApplication
 {
     public static void main(String[] args) 
 {
-        int n;
+        int a;
         Scanner in=new Scanner(System.in);
         System.out.print("enter the number:");
-        n=in.nextInt();
-        if(n%2==0)
-            System.out.println(n+  "is even");
+        a=in.nextInt();
+        if(a%2==0)
+            System.out.println(a+  "is even no");
         else
-            System.out.println(n+  "is odd ");
+            System.out.println(a+  "is odd no");
     }
     
 }
